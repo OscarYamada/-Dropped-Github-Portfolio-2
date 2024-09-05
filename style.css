@@ -9,7 +9,7 @@
     font-style: normal;
 }
 
-*::selection {
+* {
     background: rgb(21, 63, 214)32564;
     color: #1f242d;
 }
