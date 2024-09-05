@@ -10,7 +10,7 @@
 }
 
 *::selection {
-    background: #0ef;
+    background: rgb(21, 63, 214)32564;
     color: #1f242d;
 }
 
@@ -38,5 +38,18 @@ body {
     text-decoration: none;
     font-weight: 600;
     cursor: default;
-    
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.navbar a:hover,
+.navbar a.active{
+    color: rgb(21, 63, 214)32564;
 }
